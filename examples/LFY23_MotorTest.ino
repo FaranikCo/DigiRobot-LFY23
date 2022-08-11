@@ -32,10 +32,10 @@ void moveForward(int delayTime)
 
 void moveBackward(int delayTime)
 {
-  /*Stop right motor*/
+  /*Backward direction for right motor*/
   digitalWrite(MotRP, HIGH);
   digitalWrite(MotRN, LOW);
-  /*Stop left motor*/
+  /*Backward direction for right motor*/
   digitalWrite(MotLP, LOW);
   digitalWrite(MotLN, HIGH);
   delay(delayTime);
